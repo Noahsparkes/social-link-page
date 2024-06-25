@@ -1,0 +1,64 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #121212;
+}
+
+.card {
+    background-color: #1c1c1e;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+h1 {
+    color: #fff;
+    margin: 10px 0 5px;
+}
+
+.location {
+    color: #a3ff00;
+    margin: 5px 0;
+}
+
+.description {
+    color: #cfcfcf;
+    margin: 10px 0;
+    font-style: italic;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #3a3a3c;
+}
+
+.btn:hover{
+    color: #a3ff00;
+    cursor: pointer;
+}
+
