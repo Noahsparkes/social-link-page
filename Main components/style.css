@@ -13,12 +13,12 @@ body, html {
     background-color: #1c1c1e;
     padding: 20px;
     padding-top: 45px;
-    padding-bottom: 60px;
+    padding-bottom: 70px;
     border-radius: 10px;
     text-align: center;
     width: 350px; /*300*/
     height: 500px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  
 }
 
 .profile-img {
@@ -34,10 +34,11 @@ h1 {
     margin: 10px 0 5px;
     font-size: 25px;
     font-weight: 550;
+    padding-bottom: 8px;
 }
 
 .location {
-    color: #a3ff00;
+    color: hsl(75, 94%, 57%);
     margin: 5px 0;
     padding-bottom: 20px;
     font-size: 14px;
@@ -72,21 +73,30 @@ h1 {
 
 
 .btn:hover{
-    background-color: #a3ff00;
+    background-color: hsl(75, 94%, 57%);
     cursor: pointer;
     color: hsl(0, 0%, 8%);
     transition:.4s ;
   
 }
 
+.attribution{
+    position: absolute;
+    bottom: 0;
+    width: 15%;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
 /* Media Query for iPhone SE */
-@media (max-width: 320px) {
+@media (max-width: 390px) {
+    
     .card {
         width: 280px;
-        height: auto;
         padding: 15px;
         padding-top: 30px;
-        padding-bottom: 30px;
+        padding-bottom: 40px;
     }
 
     .profile-img {
@@ -116,4 +126,10 @@ h1 {
         margin: 5px auto;
         font-size: 14px;
     }
+    
+   .attribution {
+    display: none;
+   }
 }
+
+/*fix respooniveness stat!*/
