@@ -12,53 +12,70 @@ body, html {
 .card {
     background-color: #1c1c1e;
     padding: 20px;
+    padding-top: 45px;
+    padding-bottom: 60px;
     border-radius: 10px;
     text-align: center;
-    width: 300px;
+    width: 350px; /*300*/
+    height: 500px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .profile-img {
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
+    padding-bottom: 10px;
     object-fit: cover;
 }
 
 h1 {
     color: #fff;
     margin: 10px 0 5px;
+    font-size: 25px;
+    font-weight: 550;
 }
 
 .location {
     color: #a3ff00;
     margin: 5px 0;
+    padding-bottom: 20px;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 .description {
     color: #cfcfcf;
     margin: 10px 0;
-    font-style: italic;
+    font-size: 14px;
 }
 
 .buttons {
     margin-top: 20px;
+    margin-left: 15px;
 }
 
 .btn {
     display: block;
-    width: 100%;
+    width: 95%;
+    height: 45px;
     padding: 10px;
-    margin: 5px 0;
+    margin: 5px;
+    font-weight: 700;
+    margin-bottom: 17px;
     border: none;
-    border-radius: 5px;
+    border-radius: 7px;
     cursor: pointer;
     color: #fff;
     background-color: #3a3a3c;
 }
 
+
 .btn:hover{
-    color: #a3ff00;
+    background-color: #a3ff00;
     cursor: pointer;
+    color: hsl(0, 0%, 8%);
+    transition:.4s ;
+  
 }
 
